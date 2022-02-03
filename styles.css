@@ -1,0 +1,190 @@
+/* Written by Monarch as a base for a profile-card Licensed under CC0*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Determination Mono Web;
+    box-sizing: border-box;
+    text-decoration: none;    
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(225deg, #172444, #9343AC);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.profile-card{
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .2s linear;
+    box-shadow: 0rem 0rem 3rem 5px #000;
+
+}
+
+.cmc{
+    border-radius: 100px;
+    
+}
+.card-header{
+    background-image: linear-gradient(225deg, #9945FF, #14F195);
+    padding: 60px 30px;
+}
+
+.pic{
+    display: inline-block;
+    filter:hue-rotate(0deg);
+    padding: 3px;
+    background: linear-gradient(130deg, #9945FF, #14F195);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 350% 350%;
+    
+    transition: 0.1s linear;
+}
+
+@keyframes hue{
+    filter: hue-rotate(deg);
+    from{
+        filter: hue-rotate(0deg);
+    }
+    to{
+        filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes animated-gradient{
+    25%{
+        background-position: left bottom;
+    }
+    50%{
+        background-position: right bottom;
+    }
+    75%{
+        background-position: right top;
+    }
+    100%{
+        background-position: left top;
+    }
+}
+
+
+
+.pic img{
+    display: block; 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: 0.1s linear;
+    box-shadow: 0rem 0rem 3rem 5px #c5c5c5;
+}
+
+.name{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: .2s ease-in ;
+}
+
+
+.desc{
+    font-size: 18px;
+    color: #000;
+    transition: .5s ease-in;
+
+}
+
+
+.sm{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    
+}
+
+
+.sm a{
+    color: #000000;
+    width: 56px;
+    font-size: 23px;
+    transition: .3s linear;
+
+}
+
+.sm a:hover{
+color: #14F195;
+}
+
+.contact-btn{
+    background-image: linear-gradient(to left, #9945FF , #141414 , #161616);
+    display: inline-block;
+    padding: 12px 50px;
+    color: #c5c5c5;
+    border: 2px solid #14F195;
+    border-radius: 30px;
+    margin-top: 16px;
+    transition: .3s linear;
+    background-size: 200%;
+}
+
+
+.contact-btn:hover{
+    background-position: right;
+    transition: .5s;
+}
+
+.card-footer{
+    background: #f4f4f4;
+    padding: 60px 10px;
+    transition: 0.5s linear;
+}
+
+.numbers{
+    display: flex;
+    align-items: center;  
+    transition: 1s linear;  
+}
+
+.item{
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+}
+
+.item span{
+    display: block;
+    color: #252525;
+    font-size: 30px;
+    transition: 0.5s linear;
+    
+}
+
+.border{
+    width: 1px;
+    height: 30px;
+    background: #bbb;
+    transition: 0.5s linear;
+}
+
+@media screen and (max-width: 1200px) {
+    #profile-card, body, #content, #footer {
+      float: none;
+      transform: scale(0.8, 0.8);
+        }
+  }
+
+  @font-face {
+    font-family: 'Determination Mono Web';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Determination Mono Web'), url('https://fonts.cdnfonts.com/s/27690/determinationmonowebwebfont.woff') format('woff');
+  }

@@ -105,6 +105,7 @@ body{
     border-radius: 50%;
     transition: 0.1s linear;
     box-shadow: 0rem 0rem 2rem 5px #000;
+    animation: hue 9s infinite;
 }
 
 .name{

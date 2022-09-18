@@ -43,7 +43,7 @@ body{
     
 }
 .card-header{
-    background-image: linear-gradient(225deg, #C0B697, #949C8D);
+    background-image: linear-gradient(225deg, #778EAB, #2F384B);
     padding: 60px 30px;
     z-index:
     
@@ -100,9 +100,9 @@ body{
 
 .pic img{
     display: block; 
-    width: 110px;
-    height: auto;
-    border-radius: 60%;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
     transition: 0.1s linear;
     box-shadow: 0rem 0rem 2rem 5px #000;
 }
@@ -147,7 +147,7 @@ color: #14F195;
 }
 
 .contact-btn{
-    background-image: linear-gradient(to left, #A4A4AB , #DED3C4 , #948E89);
+    background-image: linear-gradient(to left, #778EAB , #C6BFAF , #778EAB);
     display: inline-block;
     padding: 10px 20px;
     color: #000;

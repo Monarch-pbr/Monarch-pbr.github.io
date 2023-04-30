@@ -34,6 +34,7 @@ body{
     transition: .2s linear;
     box-shadow: 0rem 0rem 3rem 5px #000;
     z-index: 1;
+    
 }
 
 
@@ -41,11 +42,20 @@ body{
 .cmc{
     border-radius: 100px;
     
+
+    
 }
 .card-header{
-    background-image: linear-gradient(225deg, #4C4C4E, #252628);
+    
     padding: 60px 30px;
-    z-index:
+    
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.8px);
+-webkit-backdrop-filter: blur(11.8px);
+    
     
 }
 
@@ -104,11 +114,11 @@ body{
     height: 120px;
     border-radius: 100%;
     transition: 0.1s linear;
-    box-shadow: 0rem 0rem 2rem 5px #000;
+    box-shadow: 0rem 0rem 2rem 5px #100F0E;
 }
 
 .name{
-    color: #f5f5f5;
+    color: #CFB499;
     font-size: 34px;
     font-weight: 600;
     margin: -7px 0;
@@ -119,7 +129,7 @@ body{
 
 .desc{
     font-size: 18px;
-    color: #000;
+    color: #100F0E;
     transition: .5s ease-in;
     font-family: Determination Mono Web;
 
@@ -135,7 +145,7 @@ body{
 
 
 .sm a{
-    color: #AEAFB1    ;
+    color: #c5c5c5;
     width: 56px;
     font-size: 23px;
     transition: .3s linear;
@@ -147,18 +157,18 @@ color: #fff;
 }
 
 .contact-btn{
-    background-image: linear-gradient(to left, #AEAFB1     , #4C4C4E);
+    background-image: linear-gradient(to left, #AB9785, #4C4C4E);
     display: inherit;
     padding: 10px 20px;
-    color: #000;
+    color: #100F0E;
     border: none;
     border-radius: 30px;
     margin-top: 50px;
-    transition: 0.7s linear;
+    transition: 0.35s linear;
     background-size: 200%;
     font-family: Determination Mono Web;
     font-size: 22px;
-    box-shadow: 0px 0px 20px #000;
+    box-shadow: 0px 0px 20px #100F0E;
     
 }
 
@@ -216,9 +226,11 @@ color: #fff;
     font-weight: 900;
     src: local('Determination Mono Web'), url('https://fonts.cdnfonts.com/s/27690/determinationmonowebwebfont.woff') format('woff');
   }
+
   @font-face {
 	font-family: Chocolate;
 	src: url(../fonts/painting-with-chocolate.regular-webfont.woff2) format("woff2"), url(../fonts/painting-with-chocolate.regular-webfont.woff) format("woff"), url(../fonts/painting-with-chocolate.regular.ttf) format("truetype"), url(fonts/painting-with-chocolate.regular-webfont.woff2) format("woff2"), url(fonts/painting-with-chocolate.regular-webfont.woff) format("woff"), url(fonts/painting-with-chocolate.regular.ttf) format("truetype");
 	font-weight: 400;
 	font-style: normal
 }
+

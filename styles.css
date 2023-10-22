@@ -8,6 +8,7 @@
     box-sizing: border-box;
     text-decoration: none;    
     font-family: Determination Mono Web;
+    color: #fff;
 
 }
 /*
@@ -106,7 +107,9 @@ backdrop-filter: blur(11.8px);
     }
 }
 
-
+p{
+    margin-top: 10px;
+}
 
 .pic img{
     display: block; 
@@ -118,7 +121,7 @@ backdrop-filter: blur(11.8px);
 }
 
 .name{
-    color: #CFB499;
+    color: #fff;
     font-size: 34px;
     font-weight: 600;
     margin: -7px 0;
@@ -129,7 +132,7 @@ backdrop-filter: blur(11.8px);
 
 .desc{
     font-size: 18px;
-    color: #100F0E;
+    color: #fff;
     transition: .5s ease-in;
     font-family: Determination Mono Web;
 
@@ -145,7 +148,7 @@ backdrop-filter: blur(11.8px);
 
 
 .sm a{
-    color: #c5c5c5;
+    color: #fff;
     width: 56px;
     font-size: 23px;
     transition: .3s linear;
@@ -153,19 +156,19 @@ backdrop-filter: blur(11.8px);
 }
 
 .sm a:hover{
-color: #fff;
+color: #000;
 }
 
 .contact-btn{
-    background-image: linear-gradient(to left, #AB9785, #4C4C4E);
+    background-image: linear-gradient(to left, #0DD8F0, #0C0509);
     display: inherit;
     padding: 10px 20px;
-    color: #100F0E;
+    color: #fff;
     border: none;
     border-radius: 30px;
-    margin-top: 50px;
+    margin-top: 10px;
     transition: 0.35s linear;
-    background-size: 200%;
+    background-size: 400%;
     font-family: Determination Mono Web;
     font-size: 22px;
     box-shadow: 0px 0px 20px #100F0E;

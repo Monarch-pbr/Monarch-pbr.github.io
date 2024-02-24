@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<!-- ✨ Built with Framer • https://www.framer.com/ -->
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -8,8 +8,8 @@
         <meta name="generator" content="Framer a96673f">
         <title>Dashboard</title>
         <meta name="description" content="Made with Framer">
-        <meta name="framer-search-index" content="https://framerusercontent.com/sites/4Xi3tPxPecBYS5RN487g0O/searchIndex-tOvbTjk6qmPD.json">
-        
+        <meta name="framer-search-index" content="https://framerusercontent.com/sites/4Xi3tPxPecBYS5RN487g0O/searchIndex-yYy8dUEGHBL3.json">
+        <link rel="icon" href="https://framerusercontent.com/sites/icons/default-favicon.v3.png">
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:title" content="Dashboard">
@@ -19,17 +19,17 @@
         <meta name="twitter:title" content="Dashboard">
         <meta name="twitter:description" content="Made with Framer">
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
-        <link rel="canonical" href="https://neat-topic-993897.framer.app/dashboard.html">
-        <meta property="og:url" content="https://neat-topic-993897.framer.app/dashboard.html">
+        <link rel="canonical" href="https://neat-topic-993897.framer.app/dashboard">
+        <meta property="og:url" content="https://neat-topic-993897.framer.app/dashboard">
         <link rel="modulepreload" href="https://framerusercontent.com/sites/4Xi3tPxPecBYS5RN487g0O/chunk-BHTJMZKH.mjs">
         <link rel="modulepreload" href="https://framerusercontent.com/sites/4Xi3tPxPecBYS5RN487g0O/chunk-6WGZD6NQ.mjs">
         <link rel="modulepreload" href="https://framerusercontent.com/sites/4Xi3tPxPecBYS5RN487g0O/chunk-ELYU6EKT.mjs">
-        <link rel="modulepreload" href="https://framerusercontent.com/sites/4Xi3tPxPecBYS5RN487g0O/4G8EusT1_otUFkXKT0GskLWvuWQSJcbObd9a9jFJEBo.V5T2EVWW.mjs">
+        <link rel="modulepreload" href="https://framerusercontent.com/sites/4Xi3tPxPecBYS5RN487g0O/XDOpuWCG7MuDdRUSKROg031FOiZMpWH3iCxGjDnlUqM.6AQ7YZ6A.mjs">
         <link rel="modulepreload" href="https://framerusercontent.com/sites/4Xi3tPxPecBYS5RN487g0O/chunk-AQKEOVD7.mjs">
         <link rel="modulepreload" href="https://framerusercontent.com/sites/4Xi3tPxPecBYS5RN487g0O/chunk-O7RPYOJM.mjs">
         <link rel="modulepreload" href="https://framerusercontent.com/sites/4Xi3tPxPecBYS5RN487g0O/chunk-42U43NKG.mjs">
         <link rel="modulepreload" href="https://framerusercontent.com/sites/4Xi3tPxPecBYS5RN487g0O/chunk-P2OPZZSH.mjs">
-        <style data-framer-css-ssr-minified="" data-framer-components="framer-hwuYf">
+        <style data-framer-css-ssr-minified="" data-framer-components="framer-UDzjk">
             html,body,#main {
                 margin: 0;
                 padding: 0;
@@ -55,9 +55,20 @@
                 font-family: sans-serif
             }
 
-       
+            #__framer-badge-container {
+                position: fixed;
+                bottom: 0;
+                padding: 20px;
+                width: 100%;
+                display: flex;
+                justify-content: right;
+                pointer-events: none;
+                z-index: 314159
+            }
 
-         
+            .__framer-badge {
+                pointer-events: auto
+            }
 
             @font-face {
                 font-family: Inter;
@@ -2008,7 +2019,7 @@
                 pointer-events: none!important
             }
 
-            .framer-hwuYf[data-border=true]:after,.framer-hwuYf [data-border=true]:after {
+            .framer-UDzjk[data-border=true]:after,.framer-UDzjk [data-border=true]:after {
                 content: "";
                 border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0);
                 border-color: var(--border-color, none);
@@ -2029,15 +2040,15 @@
                 }
             }
 
-            .framer-body-DlMbzhL9s-framer-hwuYf {
+            .framer-body-DlMbzhL9s-framer-UDzjk {
                 background: white
             }
 
-            .framer-hwuYf.framer-1kamsli,.framer-hwuYf .framer-1kamsli {
+            .framer-UDzjk.framer-1kamsli,.framer-UDzjk .framer-1kamsli {
                 display: block
             }
 
-            .framer-hwuYf.framer-qwooay {
+            .framer-UDzjk.framer-qwooay {
                 align-content: center;
                 align-items: center;
                 background-color: #fff;
@@ -2053,7 +2064,7 @@
                 width: 1200px
             }
 
-            .framer-hwuYf .framer-1lf6djn {
+            .framer-UDzjk .framer-1lf6djn {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -2070,7 +2081,7 @@
                 width: 800px
             }
 
-            .framer-hwuYf .framer-150fkg4 {
+            .framer-UDzjk .framer-150fkg4 {
                 --framer-paragraph-spacing: 0px;
                 flex: none;
                 height: auto;
@@ -2080,7 +2091,7 @@
                 width: auto
             }
 
-            .framer-hwuYf .framer-vvpgjn,.framer-hwuYf .framer-1j63smz {
+            .framer-UDzjk .framer-vvpgjn,.framer-UDzjk .framer-1j63smz {
                 align-content: center;
                 align-items: center;
                 background-color: #222;
@@ -2100,7 +2111,7 @@
                 width: auto
             }
 
-            .framer-hwuYf .framer-1vpy9lu {
+            .framer-UDzjk .framer-1vpy9lu {
                 --framer-link-text-color: #0099ff;
                 --framer-link-text-decoration: underline;
                 --framer-paragraph-spacing: 0px;
@@ -2112,7 +2123,7 @@
                 z-index: 1
             }
 
-            .framer-hwuYf .framer-6b5nw2 {
+            .framer-UDzjk .framer-6b5nw2 {
                 --framer-link-text-color: #0099ff;
                 --framer-link-text-decoration: underline;
                 --framer-paragraph-spacing: 0px;
@@ -2123,7 +2134,7 @@
                 width: auto
             }
 
-            .framer-hwuYf .framer-106u0rr {
+            .framer-UDzjk .framer-106u0rr {
                 align-content: flex-start;
                 align-items: flex-start;
                 display: flex;
@@ -2140,7 +2151,7 @@
                 width: 800px
             }
 
-            .framer-hwuYf .framer-uj8otx,.framer-hwuYf .framer-13spr5q {
+            .framer-UDzjk .framer-uj8otx,.framer-UDzjk .framer-13spr5q {
                 align-content: flex-start;
                 align-items: flex-start;
                 display: flex;
@@ -2157,7 +2168,7 @@
                 width: 100%
             }
 
-            .framer-hwuYf .framer-g41s1u {
+            .framer-UDzjk .framer-g41s1u {
                 flex: none;
                 height: 350px;
                 overflow: hidden;
@@ -2165,7 +2176,7 @@
                 width: 100%
             }
 
-            .framer-hwuYf .framer-gmpldv {
+            .framer-UDzjk .framer-gmpldv {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -2180,7 +2191,7 @@
                 width: 100%
             }
 
-            .framer-hwuYf .framer-13mnpxo {
+            .framer-UDzjk .framer-13mnpxo {
                 --framer-link-text-color: #0099ff;
                 --framer-link-text-decoration: underline;
                 flex: none;
@@ -2191,7 +2202,7 @@
                 z-index: 1
             }
 
-            .framer-hwuYf .framer-hybici {
+            .framer-UDzjk .framer-hybici {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -2207,7 +2218,7 @@
                 width: 100%
             }
 
-            .framer-hwuYf .framer-ra86zk {
+            .framer-UDzjk .framer-ra86zk {
                 background-color: #eee;
                 flex: none;
                 height: 2px;
@@ -2217,86 +2228,86 @@
             }
 
             @supports (background: -webkit-named-image(i)) and (not (scale:1)) {
-                .framer-hwuYf.framer-qwooay,.framer-hwuYf .framer-vvpgjn,.framer-hwuYf .framer-1j63smz,.framer-hwuYf .framer-106u0rr,.framer-hwuYf .framer-uj8otx,.framer-hwuYf .framer-13spr5q {
+                .framer-UDzjk.framer-qwooay,.framer-UDzjk .framer-vvpgjn,.framer-UDzjk .framer-1j63smz,.framer-UDzjk .framer-106u0rr,.framer-UDzjk .framer-uj8otx,.framer-UDzjk .framer-13spr5q {
                     gap:0px
                 }
 
-                .framer-hwuYf.framer-qwooay>* {
+                .framer-UDzjk.framer-qwooay>* {
                     margin: 0
                 }
 
-                .framer-hwuYf.framer-qwooay>:first-child,.framer-hwuYf .framer-106u0rr>:first-child,.framer-hwuYf .framer-uj8otx>:first-child,.framer-hwuYf .framer-13spr5q>:first-child {
+                .framer-UDzjk.framer-qwooay>:first-child,.framer-UDzjk .framer-106u0rr>:first-child,.framer-UDzjk .framer-uj8otx>:first-child,.framer-UDzjk .framer-13spr5q>:first-child {
                     margin-top: 0
                 }
 
-                .framer-hwuYf.framer-qwooay>:last-child,.framer-hwuYf .framer-106u0rr>:last-child,.framer-hwuYf .framer-uj8otx>:last-child,.framer-hwuYf .framer-13spr5q>:last-child {
+                .framer-UDzjk.framer-qwooay>:last-child,.framer-UDzjk .framer-106u0rr>:last-child,.framer-UDzjk .framer-uj8otx>:last-child,.framer-UDzjk .framer-13spr5q>:last-child {
                     margin-bottom: 0
                 }
 
-                .framer-hwuYf .framer-vvpgjn>*,.framer-hwuYf .framer-1j63smz>* {
+                .framer-UDzjk .framer-vvpgjn>*,.framer-UDzjk .framer-1j63smz>* {
                     margin: 0 5px
                 }
 
-                .framer-hwuYf .framer-vvpgjn>:first-child,.framer-hwuYf .framer-1j63smz>:first-child {
+                .framer-UDzjk .framer-vvpgjn>:first-child,.framer-UDzjk .framer-1j63smz>:first-child {
                     margin-left: 0
                 }
 
-                .framer-hwuYf .framer-vvpgjn>:last-child,.framer-hwuYf .framer-1j63smz>:last-child {
+                .framer-UDzjk .framer-vvpgjn>:last-child,.framer-UDzjk .framer-1j63smz>:last-child {
                     margin-right: 0
                 }
 
-                .framer-hwuYf .framer-106u0rr>* {
+                .framer-UDzjk .framer-106u0rr>* {
                     margin: 25px 0
                 }
 
-                .framer-hwuYf .framer-uj8otx>*,.framer-hwuYf .framer-13spr5q>* {
+                .framer-UDzjk .framer-uj8otx>*,.framer-UDzjk .framer-13spr5q>* {
                     margin: 5px 0
                 }
             }
 
             @media (min-width: 1200px) {
-                .framer-hwuYf .hidden-qwooay {
+                .framer-UDzjk .hidden-qwooay {
                     display:none!important
                 }
             }
 
             @media (min-width: 810px) and (max-width: 1199px) {
-                .framer-hwuYf .hidden-1e13czm {
+                .framer-UDzjk .hidden-1e13czm {
                     display:none!important
                 }
 
-                .framer-body-DlMbzhL9s-framer-hwuYf {
+                .framer-body-DlMbzhL9s-framer-UDzjk {
                     background: white
                 }
 
-                .framer-hwuYf.framer-qwooay,.framer-hwuYf .framer-106u0rr {
+                .framer-UDzjk.framer-qwooay,.framer-UDzjk .framer-106u0rr {
                     width: 810px
                 }
 
-                .framer-hwuYf .framer-1lf6djn {
+                .framer-UDzjk .framer-1lf6djn {
                     padding: 50px
                 }
             }
 
             @media (max-width: 809px) {
-                .framer-hwuYf .hidden-se1t3j {
+                .framer-UDzjk .hidden-se1t3j {
                     display:none!important
                 }
 
-                .framer-body-DlMbzhL9s-framer-hwuYf {
+                .framer-body-DlMbzhL9s-framer-UDzjk {
                     background: white
                 }
 
-                .framer-hwuYf.framer-qwooay {
+                .framer-UDzjk.framer-qwooay {
                     width: 390px
                 }
 
-                .framer-hwuYf .framer-1lf6djn {
+                .framer-UDzjk .framer-1lf6djn {
                     height: 98px;
                     padding: 30px
                 }
 
-                .framer-hwuYf .framer-150fkg4 {
+                .framer-UDzjk .framer-150fkg4 {
                     bottom: 30px;
                     left: 3px;
                     order: 0;
@@ -2304,7 +2315,7 @@
                     z-index: 1
                 }
 
-                .framer-hwuYf .framer-vvpgjn {
+                .framer-UDzjk .framer-vvpgjn {
                     height: 30px;
                     left: calc(52.820512820512846% - 67px / 2);
                     order: 1;
@@ -2314,7 +2325,7 @@
                     z-index: 1
                 }
 
-                .framer-hwuYf .framer-1j63smz {
+                .framer-UDzjk .framer-1j63smz {
                     height: unset;
                     inset: 34px 6px 34px 257px;
                     order: 2;
@@ -2323,30 +2334,30 @@
                     z-index: 1
                 }
 
-                .framer-hwuYf .framer-6b5nw2 {
+                .framer-UDzjk .framer-6b5nw2 {
                     order: 0
                 }
 
-                .framer-hwuYf .framer-106u0rr {
+                .framer-UDzjk .framer-106u0rr {
                     gap: 30px;
                     padding: 0 30px;
                     width: 810px
                 }
 
                 @supports (background: -webkit-named-image(i)) and (not (scale:1)) {
-                    .framer-hwuYf .framer-106u0rr {
+                    .framer-UDzjk .framer-106u0rr {
                         gap:0px
                     }
 
-                    .framer-hwuYf .framer-106u0rr>* {
+                    .framer-UDzjk .framer-106u0rr>* {
                         margin: 15px 0
                     }
 
-                    .framer-hwuYf .framer-106u0rr>:first-child {
+                    .framer-UDzjk .framer-106u0rr>:first-child {
                         margin-top: 0
                     }
 
-                    .framer-hwuYf .framer-106u0rr>:last-child {
+                    .framer-UDzjk .framer-106u0rr>:last-child {
                         margin-bottom: 0
                     }
                 }
@@ -2361,9 +2372,9 @@
     <body class="framer-body-DlMbzhL9s">
         <script async="" src="https://events.framer.com/script" data-fid="b8d59c7af2070f9e55d94591fba3025cef4180df21f70d5c21e3e0efbb6080e1"></script>
         <!-- End of bodyStart -->
-        <div id="main" data-framer-hydrate-v2="{&quot;routeId&quot;:&quot;DlMbzhL9s&quot;,&quot;localeId&quot;:&quot;default&quot;}" data-framer-ssr-released-at="2024-02-01T11:30:39.515Z" data-framer-page-optimized-at="2024-02-24T00:47:11.774Z">
+        <div id="main" data-framer-hydrate-v2="{&quot;routeId&quot;:&quot;DlMbzhL9s&quot;,&quot;localeId&quot;:&quot;default&quot;}" data-framer-ssr-released-at="2024-02-01T11:30:39.515Z" data-framer-page-optimized-at="2024-02-24T01:06:18.489Z">
             <!--$-->
-            <div class="framer-hwuYf framer-qwooay" style="min-height:100vh;width:auto">
+            <div class="framer-UDzjk framer-qwooay" style="min-height:100vh;width:auto">
                 <div class="framer-1lf6djn" style="opacity:0;transform:perspective(1200px) translateX(0px) translateY(20px) scale(1) rotate(0deg) rotateX(0deg) rotateY(0deg) translateZ(0)">
                     <div class="ssr-variant hidden-se1t3j hidden-1e13czm">
                         <div class="framer-150fkg4" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
@@ -2385,7 +2396,7 @@
                             <p style="--font-selector:R0Y7SW50ZXItNjAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:14px;--framer-font-weight:600;--framer-letter-spacing:0px;--framer-text-alignment:center;--framer-text-color:rgb(255, 255, 255)" class="framer-text">Home</p>
                         </div>
                     </a>
-                    <a class="framer-1j63smz framer-1kamsli" data-framer-name="Button" name="Button" href="./dashboard.html" target="_blank" data-framer-page-link-current="true">
+                    <a class="framer-1j63smz framer-1kamsli" data-framer-name="Button" name="Button" href="./dashboard" target="_blank" data-framer-page-link-current="true">
                         <div class="framer-6b5nw2" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
                             <p style="--font-selector:R0Y7SW50ZXItNjAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:14px;--framer-font-weight:600;--framer-letter-spacing:0px;--framer-text-alignment:center;--framer-text-color:rgb(255, 255, 255)" class="framer-text">Connect Wallet</p>
                         </div>
@@ -2433,7 +2444,7 @@
                     <div class="framer-ra86zk"></div>
                 </div>
             </div>
-            <div class="framer-hwuYf" id="overlay"></div>
+            <div class="framer-UDzjk" id="overlay"></div>
             <!--/$-->
         </div>
         <script>
@@ -2474,9 +2485,9 @@
             }])
         </script>
         <div id="svg-templates" style="position: absolute; overflow: hidden; top: 0; left: 0; width: 0; height: 0"></div>
-       
+        <div id="__framer-badge-container"></div>
         <script data-framer-appear-animation="no-preference"></script>
-        <script type="module" data-framer-bundle="" src="https://framerusercontent.com/sites/4Xi3tPxPecBYS5RN487g0O/preview_script0.HFAKNIMR.mjs"></script>
+        <script type="module" data-framer-bundle="" src="https://framerusercontent.com/sites/4Xi3tPxPecBYS5RN487g0O/preview_script0.WNQXDDFJ.mjs"></script>
         <!-- End of bodyEnd -->
     </body>
 </html>
